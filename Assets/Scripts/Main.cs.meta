@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7c2b01d1f48ef9b4d921bf47328a284a
+timeCreated: 1485622193
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - floorTilePrefab: {fileID: 1000010835697528, guid: adc9afc246b08784ab0de081bc935b8e,
+      type: 2}
+  - blockPrefab: {fileID: 1000010264852366, guid: 2cfc32f79b78bed43bab2ce9424c7217,
+      type: 2}
+  - playerPrefab: {fileID: 1000012736622578, guid: ee1df683d68ade74a81115f0d117a3d2,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,26 @@
+1. Zasady:
+Przesuwanie pude³ek do dziur jednym ruchem palca.
+
+2. Do zrobienia:
+GIT!
+Ustawienie kamery.
+Jak ma wygl¹daæ player?
+Animacje.
+
+3. Pomys³y:
+Podpowiedzi, gdzie mo¿na siê ruszyæ.
+Podpowiedzi, gdzie poleci skrzynka.
+
+4. Problemy:
+Ruch na pole vs przesuniêcie pude³ka z pola obok.
+Klikanie pod³o¿a przez postaæ.
+
+5. Bugi:
+Nie idzie po puszczeniu myszki/palca.
+
+--== PLAN ==--
+1. GIT!
+2. Przesuwanie skrzynek.
+3. Podpowiedzi.
+4. Skoñczony level.
+5....
