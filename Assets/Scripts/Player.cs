@@ -11,10 +11,12 @@ public class Player : MonoBehaviour {
     private int pathIndex = 0;
     private Vector3 nextPosition;
     private bool isWon = false;
+    private Block blockScript;
 
     // Use this for initialization
     void Start() {
         name = name.Replace("(Clone)", "");
+        blockScript = GameObject.Find("Block_1_3").GetComponent<Block>();
     }
 	
 	// Update is called once per frame
@@ -22,9 +24,12 @@ public class Player : MonoBehaviour {
         MoveToPath(path);
 
         // WIN
-        if (!isWon && pathIsComplete && path[pathIndex] == null) {
-            Debug.Log("*WIN");
-            isWon = true;
+        if (pathIsComplete && path[pathIndex] == null) {
+            if (!isWon) {
+                Debug.Log("*WIN");
+                isWon = true;
+            }
+            blockScript.MoveFromPosition(new Vector3(4, 0.625f, 1));
         }
     }
 
@@ -52,8 +57,9 @@ public class Player : MonoBehaviour {
         }
         int rowDiff = Mathf.Abs(path[moveIndex - 1][0] - nextMove[0]);
         int colDiff = Mathf.Abs(path[moveIndex - 1][1] - nextMove[1]);
-        return ((rowDiff == 0 && colDiff == 1) ||
-            (rowDiff == 1 && colDiff == 0));
+        
+        return (rowDiff == 0 && colDiff == 1) ||
+            (rowDiff == 1 && colDiff == 0);
     }
 
 }

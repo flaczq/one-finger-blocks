@@ -14,13 +14,14 @@ Podpowiedzi, gdzie poleci skrzynka.
 4. Problemy:
 Ruch na pole vs przesuniêcie pude³ka z pola obok.
 Klikanie pod³o¿a przez postaæ.
+Ruch czy nie podczas ruchu skrzynki.
 
 5. Bugi:
 Nie idzie po puszczeniu myszki/palca.
 
 --== PLAN ==--
-1. GIT!
-2. Przesuwanie skrzynek.
+1. GIT! *--*
+2. Przesuwanie skrzynek. *-
 3. Podpowiedzi.
 4. Skoñczony level.
 5....
